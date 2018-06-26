@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/docs
+/npm-debug.log
+/.vscode
+/.history
+coverage
+storybook-static

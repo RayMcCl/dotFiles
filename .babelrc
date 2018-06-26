@@ -1,0 +1,31 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false
+            }
+        ],
+        "stage-0",
+        "react"
+    ],
+    "plugins": [
+        "transform-object-rest-spread",
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./components/"
+                ],
+                "alias": {
+                    "RESOURCES": "./src/resources",
+                    "COMPONENTS": "./src/components",
+                    "STORYBOOK": "./.storybook",
+                    "TEST": "./test",
+                    "APP": "./src/app",
+                    "GENERATED": "./src/generated"
+                }
+            }
+        ]
+    ]
+}

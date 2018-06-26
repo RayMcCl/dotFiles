@@ -1,0 +1,6 @@
+node_modules
+.vscode
+.storybook
+.cache
+package-lock.json
+coverage
